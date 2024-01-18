@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-lang="page_title">Главная страница</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header" id="main">
+        <div class="header__top">
+          <div class="contaiener__logo">
+            <h3 class="logo">WEB <span class="logo__red">METEOR</span></h3>
+          </div>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__list__item">
+                <a
+                  href="#main"
+                  class="nav__list__item__link"
+                  data-lang="main"
+                ></a>
+              </li>
+              <li class="nav__list__item">
+                <a
+                  href="#about_us"
+                  class="nav__list__item__link"
+                  data-lang="about_us"
+                ></a>
+              </li>
+              <li class="nav__list__item">
+                <a
+                  href="#benefits"
+                  class="nav__list__item__link"
+                  data-lang="benefit"
+                ></a>
+              </li>
+              <li class="nav__list__item">
+                <a
+                  href="#gallery"
+                  class="nav__list__item__link"
+                  data-lang="feedback"
+                ></a>
+              </li>
+              <li class="nav__list__item">
+                <a
+                  href="#contacts"
+                  class="nav__list__item__link"
+                  data-lang="contact"
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="phone__container">
+            <h3 class="phone__title" data-lang="call_phone"></h3>
+            <a href="tel:" class="phone__link"
+              ><span class="phone__red">+380</span> (00) 000-00-00</a
+            >
+          </div>
+          <div class="btn__container">
+            <a href="#feedback" class="btn__text" data-lang="get_advice"></a>
+          </div>
+        </div>
+        <div class="header__bottom" id="about_us">
+          <div class="about__us__wrapper">
+            <h2
+              class="header__bottom__title__span"
+              data-lang="header__bottom__title__span"
+            ></h2>
+            <h1
+              class="header__bottom__title"
+              data-lang="header__bottom__title"
+            ></h1>
+            <p
+              class="header__bottom__text"
+              data-lang="header__bottom__text"
+            ></p>
+            <button class="header__bottom__btn">
+              <a
+                href="#feedback"
+                class="header__bottom__btn__link"
+                data-lang="header__bottom__btn__link"
+              ></a>
+            </button>
+            <div class="social__comtainer">
+              <a href="#" class="social__link">
+                <img src="img/svg/insta.svg" alt="insta"
+              /></a>
+              <a href="#" class="social__link"
+                ><img src="img/svg/YT.svg" alt="YouTube"
+              /></a>
+              <a href="#" class="social__link">
+                <img src="img/svg/Telegram.svg" alt="Telegram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="benefits__section" id="benefits">
+          <div class="benefits__wrap__title">
+            <h3
+              class="benefits__container__title"
+              data-lang="benefits__container__title"
+            ></h3>
+            <h3
+              class="benefits__container__title__red benefits__container__title"
+              data-lang="benefits__container__title__red"
+            ></h3>
+            <h2
+              class="benefits__container__title__black benefits__container__title"
+              data-lang="benefits__container__title__black"
+            ></h2>
+          </div>
+
+          <div class="benefits">
+            <article class="benefit">
+              <div class="benefit__wrap__title">
+                <h3 class="benefit__title" data-lang="benefit__title"></h3>
+              </div>
+
+              <ul class="benefit__list">
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_1"
+                ></li>
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_2"
+                ></li>
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_3"
+                ></li>
+              </ul>
+              <div class="benefit__price_and__button">
+                <p class="benefit__price" data-lang="benefit__price"></p>
+
+                <div class="btn__benefit">
+                  <a
+                    href="#"
+                    class="btn__benefit__link"
+                    data-lang="btn__benefit__link"
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="benefit">
+              <div class="benefit__wrap__title">
+                <h3 class="benefit__title" data-lang="benefit__title_2"></h3>
+                <h3
+                  class="benefit__title_red"
+                  data-lang="benefit__title_red"
+                ></h3>
+              </div>
+
+              <ul class="benefit__list">
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_4"
+                ></li>
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_5"
+                ></li>
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_6"
+                ></li>
+              </ul>
+              <div class="benefit__price_and__button">
+                <p class="benefit__price" data-lang="benefit__price_2"></p>
+
+                <div class="btn__benefit">
+                  <a
+                    href="#"
+                    class="btn__benefit__link"
+                    data-lang="btn__benefit__link_2"
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="benefit">
+              <div class="benefit__wrap__title">
+                <h3 class="benefit__title" data-lang="benefit__title_3"></h3>
+              </div>
+
+              <ul class="benefit__list">
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_7"
+                ></li>
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_8"
+                ></li>
+                <li
+                  class="benefit__list__item"
+                  data-lang="benefit__list__item_li_9"
+                ></li>
+              </ul>
+              <div class="benefit__price_and__button">
+                <p class="benefit__price" data-lang="benefit__price_3"></p>
+
+                <div class="btn__benefit">
+                  <a
+                    href="#"
+                    class="btn__benefit__link"
+                    data-lang="btn__benefit__link_3"
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="fight__night__section" id="fight_night">
+          <div class="fight__night__section__wrapper">
+            <div class="fight__night__section__title">
+              <h2
+                class="fight__night__title"
+                data-lang="fight__night__title"
+              ></h2>
+              <h2 class="fight__night__title">FIGHT</h2>
+              <span class="fight__night__section__title__span-red">
+                NIGHT
+              </span>
+
+              <span
+                class="fight__night__section__title__span-black"
+                data-lang="fight__night__section__title__span_black"
+                >Почему мы?</span
+              >
+            </div>
+            <div class="workings__list">
+              <div class="working__list">
+                <img
+                  src="img/svg/clock.svg"
+                  alt=""
+                  class="working__list__img"
+                />
+                <div class="working__texts">
+                  <h3
+                    class="working__list__title"
+                    data-lang="working__list__title"
+                  ></h3>
+                  <p
+                    class="working__list__desc"
+                    data-lang="working__list__desc"
+                  ></p>
+                </div>
+              </div>
+              <div class="working__list">
+                <img src="img/svg/box.svg" alt="" class="working__list__img" />
+                <div class="working__texts">
+                  <h3
+                    class="working__list__title"
+                    data-lang="working__list__title_2"
+                  ></h3>
+                  <p
+                    class="working__list__desc"
+                    data-lang="working__list__desc_2"
+                  ></p>
+                </div>
+              </div>
+              <div class="working__list">
+                <img
+                  src="img/svg/champ.svg"
+                  alt=""
+                  class="working__list__img"
+                />
+                <div class="working__texts">
+                  <h3
+                    class="working__list__title"
+                    data-lang="working__list__title_3"
+                  ></h3>
+                  <p
+                    class="working__list__desc"
+                    data-lang="working__list__desc_3"
+                  ></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="schedulen">
+          <h2 class="schedulen__title" data-lang="schedulen__title"></h2>
+          <p
+            class="schedulen__title__span"
+            data-lang="schedulen__title__span"
+          ></p>
+          <!-- Tab links -->
+          <div class="tab">
+            <button
+              class="tablinks"
+              data-lang="tablinks_monday"
+              onclick="openSheldulen(event, 'Monday')"
+            ></button>
+            <button
+              class="tablinks"
+              data-lang="tablinks_tuesday"
+              onclick="openSheldulen(event, 'Tuesday')"
+            ></button>
+            <button
+              class="tablinks"
+              data-lang="tablinks_wednasday"
+              onclick="openSheldulen(event, 'Wednesday')"
+            ></button>
+            <button
+              class="tablinks"
+              data-lang="tablinks_thursday"
+              onclick="openSheldulen(event, 'Thursday')"
+            ></button>
+            <button
+              class="tablinks"
+              data-lang="tablinks_friday"
+              onclick="openSheldulen(event, 'Friday')"
+            ></button>
+            <button
+              class="tablinks"
+              data-lang="tablinks_saturday"
+              onclick="openSheldulen(event, 'Saturday')"
+            ></button>
+            <button
+              class="tablinks"
+              data-lang="tablinks_sunday"
+              onclick="openSheldulen(event, 'Sunday')"
+            ></button>
+          </div>
+
+          <!--  #region Tab content -->
+          <div id="Monday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_monday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_monday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_monday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_monday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_monday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_monday_8"
+              ></div>
+            </div>
+          </div>
+          <div id="Tuesday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_tuesday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_tuesday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_tuesday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_tuesday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_tuesday_8"
+              ></div>
+            </div>
+          </div>
+          <div id="Wednesday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_wednesday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_wednesday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_wednesday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednsesday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_wednesday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_wednesday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_wednesday_8"
+              ></div>
+            </div>
+          </div>
+          <div id="Thursday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_thursday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_tuesday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_thursday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_thursday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_thursday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_thursday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_thursday_8"
+              ></div>
+            </div>
+          </div>
+          <div id="Friday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_friday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_friday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_friday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_friday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_friday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_friday_8"
+              ></div>
+            </div>
+          </div>
+          <div id="Saturday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_saturday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_saturday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_saturday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_saturday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_saturday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_saturday_8"
+              ></div>
+            </div>
+          </div>
+          <div id="Sunday" class="tabcontents">
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_1"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_1"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_2"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_sunday_1"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_2"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_3"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_3"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_4"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_sunday_2"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_4"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_5"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_sunday_3"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_5"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_6"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_6"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_7"></p>
+                </div>
+                <h4
+                  class="training__title"
+                  data-lang="training__title__aero_sunday_4"
+                ></h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_7"
+              ></div>
+            </div>
+            <div class="tabcontent">
+              <div class="time__training">
+                <div class="time__place">
+                  <p class="time">8:00 - 8:55</p>
+                  <p class="place" data-lang="place_sunday_8"></p>
+                </div>
+                <h4 class="training__title">KICKBOXING</h4>
+              </div>
+              <div
+                class="training__study"
+                data-lang="training__study_sunday_8"
+              ></div>
+            </div>
+          </div>
+          <!-- #endregion -->
+        </section>
+        <section class="gallery__gym" id="gallery">
+          <div class="gallery__gym__title__container">
+            <h2
+              class="gallery__gym__title"
+              data-lang="gallery__gym__title"
+            ></h2>
+          </div>
+
+          <div class="gallery__section">
+            <h2 class="gallery__section__title">
+              <span data-lang="gallery__section__title_data"></span>
+              <span
+                class="gallery__section__title__red gallery__section__title__red_flex"
+                data-lang="gallery__section__title__red_data"
+              >
+              </span>
+            </h2>
+
+            <div class="gallery__section__img">
+              <div class="gallary__img__row">
+                <img
+                  src="img/1.png"
+                  alt="women_one"
+                  class="photo__gallery"
+                  data-title="Women Training"
+                />
+
+                <img
+                  src="img/2.png"
+                  alt="women_second"
+                  class="photo__gallery"
+                  data-title="Women Solo Training"
+                />
+
+                <img
+                  src="img/3.png"
+                  alt="couch_and_women"
+                  class="photo__gallery"
+                  data-title="Man training women"
+                />
+                <img
+                  src="img/4.png"
+                  alt="bodybuilder"
+                  class="photo__gallery"
+                  data-title="Bodybuilder training"
+                />
+              </div>
+              <div class="gallary__img__row">
+                <img
+                  src="img/box_women.png"
+                  alt="box_women.png"
+                  class="photo__gallery"
+                  data-title="Women boxing"
+                />
+
+                <img
+                  src="img/man__training.png"
+                  alt="man__training"
+                  class="photo__gallery"
+                  data-title="Mans training"
+                />
+
+                <img
+                  src="img/man__sit_up.png"
+                  alt="man__sit_up"
+                  class="photo__gallery"
+                  data-title="Man sit up"
+                />
+                <img
+                  src="img/children__box.png"
+                  alt="children__box"
+                  class="photo__gallery"
+                  data-title="Children boxing"
+                />
+              </div>
+              <div class="pop-up">
+                <span>&times;</span>
+                <img src="img/1.png" alt="" />
+                <div class="pop-up-title"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h2 class="footer__title" data-lang="footer__title"></h2>
+        <div class="footer__wraper">
+          <div class="contact__form__container">
+            <div class="contact" id="contacts">
+              <h3 class="contact__title" data-lang="contact__title"></h3>
+              <div class="contact__lists">
+                <div class="contact__item">
+                  <img src="img/svg/phone.svg" alt="" class="photo__contact" />
+                  <div class="contact__item__container">
+                    <p
+                      class="contact__item__container__title"
+                      data-lang="contact__item__container__title_1"
+                    ></p>
+                    <p class="contact__item__container__desc">
+                      +380 (00) 000-00-00
+                    </p>
+                  </div>
+                </div>
+                <div class="contact__item">
+                  <img src="img/svg/map.svg" alt="" class="photo__contact" />
+                  <div class="contact__item__container">
+                    <p
+                      class="contact__item__container__title"
+                      data-lang="contact__item__container__title_2"
+                    ></p>
+                    <p
+                      class="contact__item__container__desc"
+                      data-lang="contact__item__container__desc"
+                    ></p>
+                  </div>
+                </div>
+                <div class="contact__item">
+                  <img src="img/svg/mail.svg" alt="" class="photo__contact" />
+                  <div class="contact__item__container">
+                    <p
+                      class="contact__item__container__title"
+                      data-lang="contact__item__container__title_3"
+                    ></p>
+                    <p class="contact__item__container__desc">test@test.com</p>
+                  </div>
+                </div>
+                <div class="contact__item">
+                  <a href="#">
+                    <img
+                      src="img/svg/instagram__white.svg.svg"
+                      alt="insta__white"
+                      class="photo__contact__item"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="img/svg/YT__white.svg"
+                      alt="insta__white"
+                      class="photo__contact__item"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="img/svg/telegram__white.svg"
+                      alt="insta__white"
+                      class="photo__contact__item"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="form__container" id="feedback">
+              <h3 class="form__title" data-lang="form__title"></h3>
+              <form action="" name="FeedForm">
+                <div class="name-input">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    placeholder="Your name"
+                  />
+                </div>
+
+                <div class="phone-input">
+                  <input
+                    type="text"
+                    id="Phonename"
+                    name="phonename"
+                    placeholder="Your phone"
+                  />
+                </div>
+
+                <div class="email-input">
+                  <input
+                    type="text"
+                    id="Emailname"
+                    name="emailname"
+                    placeholder="Your email"
+                  />
+                </div>
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+          <div class="copyright__container">
+            <div class="copyright_desc" data-lang="copyright_desc"></div>
+            <div class="copyright_company">WEB.METEOR</div>
+            <div class="change-lang">
+              <button class="btn__lang" data-btn="ua">ua</button>
+              <button class="btn__lang" data-btn="ru">ru</button>
+              <button class="btn__lang" data-btn="eng">eng</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="langs.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
